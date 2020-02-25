@@ -18,6 +18,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+p, h2 {
+  margin: 0;
+}
 .container {
   width: 900px;
   margin: 0 auto;
@@ -56,18 +59,18 @@ img {
   color: #03a9f4;
 }
 /* content-block */
-.article {
+.section {
   display: inline-block;
   font-size: 0;
   line-height: 24px;
 }
-.article section:nth-child(odd) {
+.section article:nth-child(odd) {
   margin-right: 60px;
 }
-.article section:nth-last-child(-n + 2) {
+.section article:nth-last-of-type(-n + 2) {
   margin-bottom: 0px;
 }
-.section {
+.article {
   display: inline-block;
   width: 420px;
   margin: 0;
