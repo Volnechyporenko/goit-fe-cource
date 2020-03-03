@@ -12,13 +12,15 @@
 }
 .header-logo {
   float: left;
-  margin-top: 38px;
+  margin: 0;
+  padding-top: 38px;
   color: #555252;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 300;
   letter-spacing: -0.2px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .header-logo::first-letter {
   color: #1abc9c;
@@ -26,7 +28,8 @@
 }
 .navigation {
   float: right;
-  margin-top: 44px;
+  margin: 0;
+  padding-top: 44px;
 }
 .menu {
   margin: 0;
@@ -41,6 +44,7 @@
   margin-right: 35px;
 }
 .menu a {
+  display: block;
   color: #0f0101;
   font-family: "Open sans", sans-serif;
   font-size: 14px;
@@ -53,7 +57,8 @@
   color: #1abc9c;
 }
 .section {
-  margin-bottom: 105px;
+  margin: 0;
+  padding-bottom: 105px;
 }
 .title {
   color: #515151;
@@ -103,38 +108,10 @@
   font-weight: 900;
   background-color: #323232;
 }
-.product-item a::before {
-  display: block;
-  content: '';
-  width: 100%;
-  height: 282px;
-  background-color: #e9f0fd;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.shoes::before {
-  background-image: url(../img/product1.png);
-}
-.brown-belt::before {
-  background-image: url(../img/product2.png);
-}
-.hat::before {
-  background-image: url(../img/product3.png);
-}
-.blue-bag::before {
-  background-image: url(../img/product4.png);
-}
-.black-bag::before {
-  background-image: url(../img/product5.png);
-}
-.black-belt::before {
-  background-image: url(../img/product6.png);
-}
-.brown-shoes::before {
-  background-image: url(../img/product7.png);
-}
-.glasses::before {
-  background-image: url(../img/product8.png);
+.image {
+  float: right;
+  width: 256px;
+  height: 281px;
 }
 .product {
   margin: 0;
@@ -196,4 +173,7 @@
   font-family: "Open Sans", serif;
   text-decoration: none;
   background-color: #4ec6ab;
+}
+.news-read-more:hover {
+  background-color: #323232;
 }
