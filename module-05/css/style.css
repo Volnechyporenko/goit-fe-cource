@@ -66,7 +66,8 @@
   height: 600px;
   margin: 0;
   overflow: hidden;
-  background-image: url(img/girls.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/girls.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -125,13 +126,13 @@
   background-color: #1abc9c;
   width: 165px;
   height: 8px;
-  content:'';
+  content: "";
 }
 .products-list {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .products-list {
   position: relative;
@@ -150,10 +151,10 @@
 .product-item:hover .product-item-actions {
   opacity: 1;
 }
-.product-item:nth-child(4n+4) {
+.product-item:nth-child(4n + 4) {
   margin-right: 0px;
 }
-.product-item:nth-last-child(-n+4) {
+.product-item:nth-last-child(-n + 4) {
   margin-bottom: 0;
 }
 .image-wrapper {
@@ -180,19 +181,19 @@
   width: 235px;
   height: 262px;
   background-color: rgb(50, 50, 50, 0.7);
-  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5); 
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
   opacity: 0;
 }
 .actions-list {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 166px;
-    height: 107px;
-    margin: auto;
-    list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 166px;
+  height: 107px;
+  margin: auto;
+  list-style: none;
 }
 .actions-list__item {
   float: left;
@@ -204,7 +205,7 @@
   text-align: center;
   transition: 0.35s;
 }
-.actions-list__item:nth-child(n+3) {
+.actions-list__item:nth-child(n + 3) {
   margin-right: 0;
 }
 .actions-list__item:nth-child(4) {
