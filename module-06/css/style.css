@@ -142,27 +142,27 @@ body {
 }
 
 .clock::before {
-    background-image: url(img/icon/clock.png);
+    background-image: url(../img/icon/clock.png);
 }
 
 .line-graph::before {
-    background-image: url(img/icon/line-graph.png);
+    background-image: url(../img/icon/line-graph.png);
 }
 
 .comp::before {
-    background-image: url(img/icon/comp.png);
+    background-image: url(../img/icon/comp.png);
 }
 
 .book::before {
-    background-image: url(img/icon/book.png);
+    background-image: url(../img/icon/book.png);
 }
 
 .home::before {
-    background-image: url(img/icon/home.png);
+    background-image: url(../img/icon/home.png);
 }
 
 .image::before {
-    background-image: url(img/icon/image.png);
+    background-image: url(../img/icon/image.png);
 }
 
 .services__service:not(:nth-last-child(-n+3)) {
@@ -268,19 +268,19 @@ body {
 }
 
 .facebook {
-    background-image: url(img/icon/face.png);
+    background-image: url(../img/icon/face.png);
 }
 
 .twitter {
-    background-image: url(img/icon/twitter.png);
+    background-image: url(../img/icon/twitter.png);
 }
 
 .pinterest {
-    background-image: url(img/icon/pinterest.png);
+    background-image: url(../img/icon/pinterest.png);
 }
 
 .instagram {
-    background-image: url(img/icon/insta.png);
+    background-image: url(../img/icon/insta.png);
 }
 
 .our-team__socials-link:hover {
