@@ -69,6 +69,10 @@
     margin-bottom: 115px;
 }
 
+.section:last-child {
+    margin-bottom: 0;
+}
+
 .section__title {
     padding-bottom: 30px;
     color: #222;
