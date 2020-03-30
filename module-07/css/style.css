@@ -159,7 +159,7 @@
 
 .section__contact-us {
     padding-bottom: 115px;
-    background: url(/img/Map-Image.png), #222;
+    background: url(../img/Map-Image.png), #222;
     background-repeat: no-repeat;
     background-position: 100% 100%;
 }
