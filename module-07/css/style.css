@@ -1,0 +1,223 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 44px;
+}
+
+.header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+}
+
+.header__logo {
+    display: block;
+    align-self: center;
+    color: #fed136;
+    font-size: 26px;
+    font-family: "Norican", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.header__logo:hover,
+.header__logo:focus {
+    color: #222;
+}
+
+.header__list {
+    display: flex;
+    min-width: 480px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+.header__list-link {
+    display: block;
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.header__list-link:hover,
+.header__list-link:focus {
+    color: #fed136;
+}
+
+/* main - section-services */
+
+.section {
+    padding-top: 115px;
+    margin-bottom: 115px;
+}
+
+.section__title {
+    padding-bottom: 30px;
+    color: #222;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -1.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section__text {
+    color: #777;
+    padding: 0 325px 0;
+    padding-bottom: 80px;
+    font-family: "PT Serif", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center;
+}
+.section__services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.section__services-item {
+    width: 286px;
+    font-weight: 400;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-card::before {
+    display: block;
+    content: "";
+    width: 69px;
+    height: 68px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.service-card--commerce::before {
+    background-image: url(../img/icons/Icon-Basket.png);
+}
+
+.service-card--responcive::before {
+    background-image: url(../img/icons/Icon-Laptop.png);
+}
+
+.service-card--security::before {
+    background-image: url(../img/icons/Icon-Locked.png);
+}
+
+.service-card__title {
+    color: #222;
+    padding-top: 27px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.service-card__text {
+    color: #777;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto Slab", sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.section__contact-us .section__title {
+    color: #fff;
+}
+
+.section__contact-us {
+    padding-bottom: 115px;
+    background: url(/img/Map-Image.png), #222;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.section__contact-us__form {
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__contact-us__inputs-wrapper {
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    justify-content: space-between;
+
+}
+
+.section__contact-us__input,
+.section__contact-us__area {
+    width: 48.5%;
+    padding: 20px 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #bbb;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section__contact-us__area {
+    height: 100%;
+    margin-left: 3%;
+    
+}
+
+.section__contact-us__button {
+    padding: 26px 48px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #fed136;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+[required]:not(:placeholder-shown):valid {
+    outline: 2px solid #05a012;
+}
+
+[required]:not(:placeholder-shown):invalid {
+    outline: 2px solid #dc0c04;
+}
+
+.section__contact-us__input:focus,
+.section__contact-us__area:focus {
+    outline: none;
+}
