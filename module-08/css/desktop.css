@@ -1,0 +1,15 @@
+@media (min-width: 1460px) {
+    
+    .container {
+        max-width: 1440px;
+        padding: 0 250px;
+    }
+
+    .holiday-partners__inner {
+        padding: 69px 0;
+    }
+
+    .holiday-partners__list {
+        width: 914px;
+    }
+}
