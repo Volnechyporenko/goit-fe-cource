@@ -78,6 +78,7 @@ body {
 .after-head {
     min-height: 100vh;
     padding: 229px 0 104px;
+    margin-bottom: 68px;
     box-sizing: border-box;
     background: url(../img/vso.png), linear-gradient(to right, rgb(26, 25, 21, 1), rgba(26, 25, 21, 1));
     background-position: center;
@@ -86,7 +87,7 @@ body {
 }
 
 .after-head__title {
-    margin: 0 auto;
+    margin: 0 auto 19px;
     max-width: 295px;
     color: #fff;
     font-size: 30px;
@@ -98,8 +99,7 @@ body {
 
 .after-head__sub-title {
     max-width: 217px;
-    margin: 0 auto;
-    padding-top: 19px;
+    margin: 0 auto 18px;
     color: #fff;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -109,18 +109,17 @@ body {
 }
 
 .after-head__button-wrapper {
-    padding-top: 18px;
     text-align: center;
 }
 
 /* section holiday-partners */
 
-.holiday-partners__inner {
-    padding: 68px 0;
+.holiday-partners {
+    margin-bottom: 68px;
 }
 
 .holiday-partners__title {
-    margin: 0 auto;
+    margin: 0 auto 14px;
     max-width: 278px;
     color: #333;
     font-size: 22px;
@@ -130,7 +129,7 @@ body {
 }
 
 .holiday-partners__list {
-    padding: 14px 0;
+    margin-bottom: 21px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -147,33 +146,18 @@ body {
     margin-bottom: 28px;
 }
 
-.holiday-partners__partner-avatar {
+.holiday-partners__partner-wrapper {
     position: relative;
     width: 122px;
     height: 122px;
     margin: 0 auto;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
 }
 
-.holiday-partners__partner-avatar-first {
-    background-image: url(../img/Layer1.png);
+.holiday-partners__partner-avatar {
+    border-radius: 62px;
 }
 
-.holiday-partners__partner-avatar-second {
-    background-image: url(../img/Layer2.png);
-}
-
-.holiday-partners__partner-avatar-third {
-    background-image: url(../img/Layer3.png);
-}
-
-.holiday-partners__partner-avatar-fourth {
-    background-image: url(../img/Layer4.png);
-}
-
-.holiday-partners__partner-avatar::after {
+.holiday-partners__partner-wrapper::after {
     display: block;
     content: '';
     position: absolute;
@@ -187,40 +171,38 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
 }
-.avatar-one::after {
+.avatar-icon__one::after {
     background-image: url(../img/icons/one.png);
     background-color: #ff4e50;
 }
 
-.avatar-two::after {
+.avatar-icon__two::after {
     background-image: url(../img/icons/two.png);
     background-color: #1cd7ad;
 }
 
-.avatar-three::after {
+.avatar-icon__three::after {
     background-image: url(../img/icons/three.png);
     background-color: #ffa507;
 }
 
-.avatar-four::after {
+.avatar-icon__four::after {
     background-image: url(../img/icons/four.png);
     background-color: #4e73db;
 }
 
 .holiday-partners__partner-name {
-    padding-top: 20px;
+    margin: 20px 0 16px;
     color: #333;
     font-weight: 700;
 }
 
 .holiday-partners__partner-desc {
-    padding-top: 16px;
     color: #666;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 .holiday__partners-button-wrapper {
-    padding-top: 21px;
     text-align: center;
 }

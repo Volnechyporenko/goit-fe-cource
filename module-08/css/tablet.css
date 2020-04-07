@@ -1,7 +1,7 @@
-@media (min-width: 1120px) {
+@media (min-width: 768px) {
 
     .container {
-        max-width: 1100px;
+        max-width: 767px;
         margin: 0 auto;
     }
 
@@ -23,23 +23,19 @@
     }
 
     .after-head__title {
+        margin-bottom: 40px;
         font-size: 52px;
         min-width: 503px;
     }
 
     .after-head__sub-title {
-        padding-top: 40px;
+        margin-bottom: 33px;
         min-width: 398px;
         font-size: 24px;
     }
     
     .after-head__button-wrapper {
-        padding-top: 33px;
         text-align: center;
-    }
-
-    .holiday-partners__inner {
-        padding: 72px 0;
     }
 
     .holiday-partners__title {
@@ -48,8 +44,7 @@
 
     .holiday-partners__list {
         width: 485px;
-        margin: 0 auto;
-        padding: 31px 0 0 0;
+        margin: 0 auto 38px;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
@@ -64,7 +59,6 @@
     }
 
     .holiday__partners-button-wrapper {
-        padding-top: 38px;
         text-align: center;
     }
 }
