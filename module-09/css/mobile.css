@@ -1,5 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .button {
