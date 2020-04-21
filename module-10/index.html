@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -31,19 +31,24 @@
               <li class="header__nav-item">
                 <a class="header__nav-link" href="#">Contact</a>
               </li>
-      <!-- svg link -->
+              <!-- svg link -->
               <li class="header__nav-item">
-                <a class="header__nav-link header__nav-link--after" href="#">
-                  <svg>
-                    <use href="img/icon/sprite.svg#cart"></use>
-                  </svg>
-                </a>
+                <button class="button-cart">
+                  <a class="header__nav-link header__nav-link--after" href="#">
+                    <svg>
+                      <use href="/img/icon/sprite.svg#cart"></use>
+                    </svg>
+                  </a>
+                </button>
               </li>
               <li class="header__nav-item">
-                <a class="header__nav-link header__nav-link--after" href="#">
-                  <svg>
-                    <use href="img/icon/sprite.svg#search"></use>
-                  </svg></a>
+                <button class="button-search">
+                  <a class="header__nav-link header__nav-link--after" href="#">
+                    <svg>
+                      <use href="/img/icon/sprite.svg#search"></use>
+                    </svg>
+                  </a>
+                </button>
               </li>
             </ul>
           </nav>
@@ -56,7 +61,11 @@
       <section class="section banner">
         <div class="container">
           <p class="sub-title sub-title__text">Creative Template</p>
-          <h2 class="sub-second__title sub-second__title--after sub-second__title--text">Welcome to MoGo</h2>
+          <h2
+            class="sub-second__title sub-second__title--after sub-second__title--text"
+          >
+            Welcome to MoGo
+          </h2>
           <div class="after-head__button-wrapper">
             <button class="button">Learn more</button>
           </div>
@@ -200,35 +209,35 @@
                   />
                   <div class="our-team__socials-wrap">
                     <ul class="our-team__socials">
-                        <li class="our-team__socials-item">
-                          <a href="#" class="our-team__socials-link">
-                            <svg>
-                              <use href="img/icon/sprite.svg#face"></use>
-                            </svg>
-                          </a>
-                        </li>
-                        <li class="our-team__socials-item">
-                          <a href="#" class="our-team__socials-link">
-                            <svg>
-                              <use href="img/icon/sprite.svg#twitter"></use>
-                            </svg>
-                          </a>
-                        </li>
-                        <li class="our-team__socials-item">
-                          <a href="#" class="our-team__socials-link">
-                            <svg>
-                              <use href="img/icon/sprite.svg#pineterest"></use>
-                            </svg>
-                          </a>
-                        </li>
-                        <li class="our-team__socials-item">
-                          <a href="#" class="our-team__socials-link">
-                            <svg>
-                              <use href="img/icon/sprite.svg#insta"></use>
-                            </svg>
-                          </a>
-                        </li>
-                      </ul>
+                      <li class="our-team__socials-item">
+                        <a href="#" class="our-team__socials-link">
+                          <svg>
+                            <use href="img/icon/sprite.svg#face"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="our-team__socials-item">
+                        <a href="#" class="our-team__socials-link">
+                          <svg>
+                            <use href="img/icon/sprite.svg#twitter"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="our-team__socials-item">
+                        <a href="#" class="our-team__socials-link">
+                          <svg>
+                            <use href="img/icon/sprite.svg#pineterest"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="our-team__socials-item">
+                        <a href="#" class="our-team__socials-link">
+                          <svg>
+                            <use href="img/icon/sprite.svg#insta"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
                 <h3 class="our-team__name-title our-team__member-name">
@@ -298,14 +307,19 @@
       <div class="footer__page container">
         <div class="footer__page-copyright">
           <p class="copyright">
-            © 2016 MoGo free PSD template by <a class="copyright-link" href="#">Laaqiq</a>
+            © 2016 MoGo free PSD template by
+            <a class="copyright-link" href="#">Laaqiq</a>
           </p>
         </div>
         <div class="footer__page-subscribe">
-            <form class="subscribe" action="">
-                <input class="subscribe-text" type="text" placeholder="Your Email...">
-                <input class="subscribe-submit" type="submit" value="subscribe">
-            </form>
+          <form class="subscribe" action="">
+            <input
+              class="subscribe-text"
+              type="text"
+              placeholder="Your Email..."
+            />
+            <input class="subscribe-submit" type="submit" value="subscribe" />
+          </form>
         </div>
       </div>
     </footer>

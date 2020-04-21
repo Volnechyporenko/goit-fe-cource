@@ -20,7 +20,6 @@ body {
 
 .button:hover,
 .button:focus {
-    /* background-color: #fff; */
     color: #fce38a;
     border: 2px solid #fce38a;
 }
@@ -135,6 +134,15 @@ body {
 .header__nav-link--after::after {
     display: none;
 }
+
+.button-cart,
+.button-search {
+    border: none;
+    transition: 0.35s;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 /* section-1 */
 
 .section {
