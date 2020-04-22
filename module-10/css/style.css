@@ -149,49 +149,54 @@ body {
     margin-bottom: 81px;
 }
 
-.sub-title {
+.section__title {
+    margin: 0 auto 50px;
+    max-width: 840px;
+    color: #333;
+    line-height: 1;
+    text-align: center;
+}
+
+.section__title-first {
+    display: block;
     margin: 0 auto 23px;
     color: #333;
     font-family: 'Kaushan Script', Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 400;
-    line-height: 1.2;
-    text-align: center;
 }
 
-.sub-title__text {
+.section__title-first--cursive {
     margin: 0 auto 42px;
     color: #fff;
     font-size: 72px;
 }
 
-.sub-second__title {
-    margin: 0 auto 46px;
+.section__title-second {
+    display: block;
+    margin: 0 auto 41px;
     color: #333;
     font-size: 30px;
     font-weight: 700;
-    line-height: 1;
-    text-align: center;
     text-transform: uppercase;
 }
 
-.sub-second__title::after {
-    content: '';
-    display: block;
-    width: 61px;
-    height: 4px;
-    margin: 41px auto 0;
-    background-color: #f38181;
-}
-
-.sub-second__title--text {
-    max-width: 840px;
+.section__title-second--bold {
     margin: 0 auto 123px;
     color: #fff;
     font-size: 150px;
 }
 
-.sub-second__title--after::after {
+.section__title::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #f38181;
+}
+
+.section__title--after::after {
     display: none;
 }
 
@@ -224,27 +229,27 @@ body {
     background-size: contain;
 }
 
-.clock::before {
+.services__service--clock::before {
     background-image: url(../img/icon/clock.png);
 }
 
-.line-graph::before {
+.services__service--line-graph::before {
     background-image: url(../img/icon/line-graph.png);
 }
 
-.comp::before {
+.services__service--comp::before {
     background-image: url(../img/icon/comp.png);
 }
 
-.book::before {
+.services__service--book::before {
     background-image: url(../img/icon/book.png);
 }
 
-.home::before {
+.services__service--home::before {
     background-image: url(../img/icon/home.png);
 }
 
-.image::before {
+.services__service--image::before {
     background-image: url(../img/icon/image.png);
 }
 
