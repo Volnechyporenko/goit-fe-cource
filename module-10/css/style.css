@@ -295,6 +295,7 @@ body {
 }
 
 .our-team__members-list {
+    margin: 0;
     padding: 91px 0 0 0;
     display: flex;
     justify-content: space-between;
@@ -418,6 +419,10 @@ body {
     font-size: 14px;
     line-height: 1.2;
     text-align: center;
+}
+
+.copyright {
+    margin: 0;
 }
 
 .copyright-link {
