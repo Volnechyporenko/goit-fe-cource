@@ -46,7 +46,7 @@ body {
 .banner {
     min-height: auto;
     padding: 229px 0 231px;
-    background: linear-gradient(to top, rgb(252, 227, 138, .9) 0%,rgb(243, 129, 129, .9) 100%), url(../img/eagle.jpg);
+    background: linear-gradient(to top, rgba(252, 227, 138, .9) 0%,rgba(243, 129, 129, .9) 100%), url(../img/eagle.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -333,7 +333,7 @@ body {
     height: 100%;
     opacity: 0;
     transition: 0.35s 0.2s;
-    background-image: linear-gradient(to top, rgb(252, 227, 138, .9) 0%,rgb(243, 129, 129, .9) 100%);
+    background-image: linear-gradient(to top, rgba(252, 227, 138, .9) 0%,rgba(243, 129, 129, .9) 100%);
 }
 
 .our-team__member:hover .our-team__socials-wrap {
@@ -473,7 +473,7 @@ body {
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .banner {
-    background: linear-gradient(to top, rgb(252, 227, 138, .9) 0%,rgb(243, 129, 129, .9) 100%), url(../img/eagle@2x.jpg);
+    background: linear-gradient(to top, rgba(252, 227, 138, .9) 0%,rgba(243, 129, 129, .9) 100%), url(../img/eagle@2x.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
